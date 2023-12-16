@@ -1,0 +1,292 @@
+@import url('https://fonts.cdnfonts.com/css/resolve-sans/');
+
+*{
+    font-family: 'Resolve Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #fdfefe;
+}
+
+body{
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #161616;
+}
+
+.logo{
+    letter-spacing: -2px;
+    font-weight: 1000;
+}
+
+.navigation_menu{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    letter-spacing: 2px;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.navigation_menu>li:hover{
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #161616;
+}
+
+.footer>ul{
+    list-style: none;
+    padding: 20px;
+}
+
+.footer>h2{
+    font-size: 30px;
+}
+
+.footer>ul>li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer>ul>li:hover{
+    cursor: pointer;
+}
+
+.home_one{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    background: url(./images/adf51811cba2d86b277f7015b57838d4.jpg);
+    background-size: cover;
+}
+
+.moto{
+    font-size: 70px;
+    padding: 45px;
+    letter-spacing: 3px;
+}
+
+.desc{
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 80px 100px;
+    letter-spacing: 2px;
+}
+
+.desc>p{
+    padding-bottom: 10px;
+}
+
+.bookTable{
+    padding: 20px 100px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    background-color: #f4c377;
+    color: #161616;
+    font-weight: bolder;
+}
+
+.home_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-color: #232323;
+}
+
+.todaySpecial{
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: #f4c377;
+}
+
+.textUT{
+    padding: 25px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.special_blocks{
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.special_blocks>div{
+    border-radius: 7px;
+    height: 530px;
+    width: 400px;
+}
+
+.special_image{
+    height: 320px;
+    width: 400px;
+}
+
+.menu_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #232323;
+}
+
+.menu_heading{
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: #f4c377;
+}
+
+.menu_table{
+    padding-top: 100px;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 30px;
+}
+
+.menu_table>div>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.menu_table>div>p{
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #f4c377;
+    padding: 10px;
+}
+
+.menu_table>div>div>p{
+    text-align: right;
+}
+
+.gallery_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #232323;
+}
+
+.gallery_body>img{
+    padding: 100px;
+}
+
+.gallery_heading{
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: #f4c377;
+}
+
+.review_heading{
+    padding-top: 100px;
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+
+.reviews{
+    padding: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(2,1fr);
+    gap: 50px;
+}
+
+.reviews>div{
+    border: solid 2px #f4c377;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 19px;
+}
+
+.aboutUs_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #232323;
+}
+
+.aboutUs_upper{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.sideUpper{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 600px;
+    gap: 30px;
+}
+
+.sideUpper>p{
+    font-size: 25px;
+}
+
+.sideUpper>div{
+    color: #f4c377;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+
+.chefs_heading{
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: #f4c377;
+    text-align: center;
+}
+
+.textUL{
+    padding: 25px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.chef_blocks{
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
